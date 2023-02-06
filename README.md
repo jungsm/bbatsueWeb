@@ -1,3 +1,7 @@
+# 규칙
+<p>1. 파일 이름은 'sub_***.html' 로 작성 바람.</p>
+<p>2. 커밋 내용은 '230206 [홍길동] 커밋 내용' 으로 작성 바람.</p>
+
 # Vercel URL
 <a href="https://bbatsue-web.vercel.app/" target="_blank">https://bbatsue-web.vercel.app/</a>
 
