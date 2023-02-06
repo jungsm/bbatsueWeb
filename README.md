@@ -9,6 +9,6 @@ npm install bootstrap@5.2.3
 ```
 
 # 쌤 블로그
-```
+<a href="https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstrap%20scss%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/#01-bootstrap-%EC%9D%B8%EC%8A%A4%ED%86%A8" target="blank">
 https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstrap%20scss%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/#01-bootstrap-%EC%9D%B8%EC%8A%A4%ED%86%A8
-```
+</a>
