@@ -4,8 +4,9 @@ $light: gray;
 $text-color: #333;
 $secondary: #9E6934;
 
-
 @import "./font";
+@import "./reset";
+@import "./mixin";
 @import "./common";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
