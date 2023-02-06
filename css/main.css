@@ -39,11 +39,25 @@ header {
   padding-top: 78px;
   padding-bottom: 78px;
 }
+.section-padding-3 {
+  padding-top: 78px;
+  padding-bottom: 0;
+}
 .section-text-color {
   color: #9E6934;
 }
 .section-bg-color {
   background-color: #FFFCF1;
+}
+.section-bg-image {
+  background-image: url(../img/main/review_bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.section-bg-image .section-title::after {
+  width: 150px;
+  background-color: #FFF;
 }
 .section-title {
   position: relative;
@@ -84,6 +98,19 @@ header {
   position: absolute;
   bottom: 20px;
   right: 20px;
+}
+
+.event-item-list {
+  padding-top: 3rem;
+}
+
+.btn-review {
+  border: 2px solid #333;
+  padding: 1rem 2.5rem;
+}
+
+.review-item-list {
+  padding-top: 2rem;
 }
 
 /*!

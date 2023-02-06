@@ -19,11 +19,27 @@ header {
         padding-top: 78px;
         padding-bottom: 78px;
     }
+    &-padding-3 {
+        padding-top: 78px;
+        padding-bottom: 0;
+    }
     &-text-color {
         color: $secondary;
     }
     &-bg-color {
         background-color: $primary;
+    }
+    &-bg-image {
+        background-image: url(../img/main/review_bg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+        .section-title {
+            &::after {
+                width: 150px;
+                background-color: #FFF;
+            }
+        }
     }
     &-title {
         position: relative;
@@ -71,4 +87,20 @@ header {
         }
     }
 }
-    
+// event
+.event {
+    &-item-list {
+        padding-top: 3rem;
+    }
+}
+.btn {
+    &-review {
+        border: 2px solid #333;
+        padding: 1rem 2.5rem;
+    }
+}
+.review {
+    &-item-list {
+        padding-top: 2rem;
+    }
+}
