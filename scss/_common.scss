@@ -2,9 +2,73 @@
 header {
     border-bottom: 1px solid $secondary;
 }
+// text
 .text-color {
     color: $text-color;
 }
 .text-size-12 {
     font-size: 0.8rem;
 }
+// section
+.section {
+    &-padding {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    &-padding-2 {
+        padding-top: 78px;
+        padding-bottom: 78px;
+    }
+    &-text-color {
+        color: $secondary;
+    }
+    &-bg-color {
+        background-color: $primary;
+    }
+    &-title {
+        position: relative;
+        font-weight: 600;
+        &::after {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: $secondary;
+            content: "";
+        }
+        &-padding {
+            padding-bottom: 3rem;
+        }
+    }
+}
+// product
+.product {
+    &-item-list {
+        padding-top: 3rem;
+    }
+    &-item {
+        border-radius: 20px;
+        &-img {
+            width: 100%;
+            position: relative;
+
+        }
+        &-text {
+            .red {
+                color: #F27979;
+            }
+            del {
+                color: #CCC;
+                font-weight: 300;
+            }
+        }
+        .wish {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+}
+    

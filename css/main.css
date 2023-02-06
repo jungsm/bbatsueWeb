@@ -16,6 +16,61 @@ header {
   font-size: 0.8rem;
 }
 
+.section-padding {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.section-padding-2 {
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+.section-text-color {
+  color: #9E6934;
+}
+.section-bg-color {
+  background-color: #FFFCF1;
+}
+.section-title {
+  position: relative;
+  font-weight: 600;
+}
+.section-title::after {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #9E6934;
+  content: "";
+}
+.section-title-padding {
+  padding-bottom: 3rem;
+}
+
+.product-item-list {
+  padding-top: 3rem;
+}
+.product-item {
+  border-radius: 20px;
+}
+.product-item-img {
+  width: 100%;
+  position: relative;
+}
+.product-item-text .red {
+  color: #F27979;
+}
+.product-item-text del {
+  color: #CCC;
+  font-weight: 300;
+}
+.product-item .wish {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
