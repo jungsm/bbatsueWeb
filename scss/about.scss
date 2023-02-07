@@ -4,6 +4,11 @@ $light: gray;
 $text-color: #333;
 $secondary: #9E6934;
 
+// about
+.bg-img {
+    background-image: url(../img/sub/about_bg.png);
+}
+
 @import "./font";
 @import "./mixin";
 @import "./common";

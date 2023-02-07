@@ -5,56 +5,6 @@ $text-color: #333;
 $secondary: #9E6934;
 
 //main
-// section
-.section {
-    &-padding {
-        padding-top: 12.5rem;
-        padding-bottom: 12.5rem;
-    }
-    &-padding-2 {
-        padding-top: 4.875rem;
-        padding-bottom: 4.875rem;                               
-    }
-    &-padding-3 {
-        padding-top: 4.875rem;
-        padding-bottom: 0;
-    }
-    &-text-color {
-        color: $secondary;
-    }
-    &-bg-color {
-        background-color: $primary;
-    }
-    &-bg-image {
-        background-image: url(../img/main/review_bg.png);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: 100% 500px;
-        .section-title {
-            &::after {
-                width: 150px;
-                background-color: #FFF;
-            }
-        }
-    }
-    &-title {
-        position: relative;
-        font-weight: 600;
-        &::after {
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background-color: $secondary;
-            content: "";
-        }
-        &-padding {
-            padding-bottom: 3rem;
-        }
-    }
-}
 // product
 .product {
     &-item {
@@ -82,8 +32,6 @@ $secondary: #9E6934;
         }
     }
 }
-// event
-
 .btn {
     &-review {
         border: 2px solid #333;
