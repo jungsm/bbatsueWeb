@@ -20,3 +20,11 @@ npm install bootstrap@5.2.3
 <a href="https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstrap%20scss%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/#01-bootstrap-%EC%9D%B8%EC%8A%A4%ED%86%A8" target="blank">
 https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstrap%20scss%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/#01-bootstrap-%EC%9D%B8%EC%8A%A4%ED%86%A8
 </a>
+
+# TO DO
+<h4>메인</h4>
+- 링크가 호버 되었을 때 색상 변경
+- 모바일에서 캐러셀 넘어가지 않음
+- 모바일에서 푸터가 접히는 현상 있음
+- 모바일에서 섹션 패딩이 과함
+-
