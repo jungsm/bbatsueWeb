@@ -25,6 +25,7 @@ https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstr
 <h4>메인</h4>
 - 링크가 호버 되었을 때 색상 변경
 - 모바일에서 캐러셀 넘어가지 않음
-- 모바일에서 푸터가 접히는 현상 있음
+- 모바일에서 푸터가 접히는 현상 있음 (아이폰 14, 380px 등)
 - 모바일에서 섹션 패딩이 과함
+- 컨텐츠가 부족함 (제품 이름, 사진, 리뷰 등)
 -
