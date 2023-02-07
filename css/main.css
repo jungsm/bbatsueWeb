@@ -56,6 +56,9 @@
   width: 100%;
   position: relative;
 }
+.product-item-img img {
+  width: 100%;
+}
 .product-item-text .red {
   color: #F27979;
 }
@@ -72,6 +75,9 @@
 .event-item-list {
   padding-top: 3rem;
 }
+.event .event-item img {
+  width: 100%;
+}
 
 .btn-review {
   border: 2px solid #333;
@@ -80,6 +86,9 @@
 
 .review-item-list {
   padding-top: 2rem;
+}
+.review img {
+  width: 100%;
 }
 
 * {

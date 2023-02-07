@@ -65,7 +65,9 @@ $secondary: #9E6934;
         &-img {
             width: 100%;
             position: relative;
-
+            img {
+                width: 100%;
+            }
         }
         &-text {
             .red {
@@ -88,6 +90,11 @@ $secondary: #9E6934;
     &-item-list {
         padding-top: 3rem;
     }
+    .event-item {
+        img {
+            width: 100%;
+        }
+    }
 }
 .btn {
     &-review {
@@ -98,6 +105,9 @@ $secondary: #9E6934;
 .review {
     &-item-list {
         padding-top: 2rem;
+    }
+    img {
+        width: 100%;
     }
 }
 @import "./font";
