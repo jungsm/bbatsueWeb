@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon//apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon//apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon//apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon//apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon//apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon//apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon//apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon//apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="../img/favicon//android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon//favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon//favicon-16x16.png">
+	<link rel="manifest" href="../img/favicon//manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="./image/favicon//ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<title>뺏슈</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+	<!-- header -->
+    <header>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-8 d-flex justify-content-center align-items-center">
+					<h1 class="logo m-0"><a href="../index.html"><img src="../img/logo/logo.svg" alt="뺏슈"></a></h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- //heder -->
+	<main>
+		<!-- login -->
+		<section id="login">
+			<div class="container-xxl">
+				<div class="row">
+					<div class="login_form col-8 mx-auto">
+						<h2 class="title fw-bold m-0">로그인</h2>
+						<form action="post" class="text_muted">
+							<div class="user_account">
+								<div class="form-floating user_id">
+									<input type="text" class="form-control" id="floatingInput" placeholder="아이디" required>
+									<label for="floatingInput">아이디</label>
+								</div>
+								<div class="form-floating user_pw">
+									<input type="password" class="form-control" id="floatingPassword" placeholder="비밀번호" required>
+									<label for="floatingPassword">비밀번호</label>
+								</div>
+							</div>
+							<!-- //user_account -->
+							<div class="user_info d-flex justify-content-between">
+								<div class="save_id">
+									<input type="checkbox" value="" id="saveId" name="saveId">
+									<label for="saveId" class="fw-bold">아이디 저장</label>
+								</div>
+								<ul class="d-inline-flex m-0">
+									<li class="fw-bold"><a href="#">회원가입</a></li>
+									<li class="fw-bold"><a href="#">계정 찾기</a></li>
+									<li class="fw-bold"><a href="#">비밀번호 찾기</a></li>
+								</ul>
+							</div>
+							<!-- //user_info -->
+							<div class="d-grid">
+								<button class="login btn bg-secondary text-white" type="button">로그인</button>
+							</div>
+							<!-- // login button -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- //login -->
+	</main>
+
+	<!-- script -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

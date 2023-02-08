@@ -1,79 +1,92 @@
 @charset "UTF-8";
+/* header */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-.bg-img {
-  background-image: url(../img/sub/about_bg.png);
+header {
+  height: 150px;
+}
+header .logo {
+  line-height: 150px;
+}
+
+/* login */
+#login .login_form {
+  border-top: 1px solid #9E6934;
+  border-bottom: 1px solid #9E6934;
+  padding: 100px 112px 50px;
+}
+#login .login_form .title {
+  font-size: 42px;
+  padding-bottom: 60px;
+}
+#login .login_form form .user_account input {
+  outline: 0 none;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+#login .login_form form .user_id {
+  margin-bottom: 20px;
+}
+#login .login_form form .user_pw {
+  margin-bottom: 10px;
+}
+#login .login_form form label {
+  font-size: 16px;
+  color: #999;
+}
+#login .login_form form .user_info .save_id label {
+  color: #292922;
+  font-size: 14px;
+  margin-left: 5px;
+}
+#login .login_form form .user_info ul li:nth-child(2) {
+  position: relative;
+  padding: 0 20px;
+}
+#login .login_form form .user_info ul li:nth-child(2):before, #login .login_form form .user_info ul li:nth-child(2):after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: #999;
+}
+#login .login_form form .user_info ul li:nth-child(2):before {
+  right: 10px;
+}
+#login .login_form form .user_info ul li:nth-child(2):after {
+  left: 10px;
+}
+#login .login_form form .user_info ul li a {
+  color: #292922;
+  text-decoration: none;
+  font-size: 14px;
+}
+#login .login_form form .d-grid {
+  padding-top: 60px;
+}
+#login .login_form form .d-grid .login {
+  height: 70px;
+  font-size: 26px;
 }
 
 * {
   font-family: "Noto Sans KR", "Roboto", sans-serif;
 }
 
-header {
-  border-bottom: 1px solid #9E6934;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.text-color {
-  color: #333;
+ul, ol, li {
+  list-style: none;
 }
 
-.text-size-12 {
-  font-size: 0.8rem;
-}
-
-.section-padding {
-  padding-top: 12.5rem;
-  padding-bottom: 12.5rem;
-}
-.section-padding-2 {
-  padding-top: 4.875rem;
-  padding-bottom: 4.875rem;
-}
-.section-padding-3 {
-  padding-top: 4.875rem;
-  padding-bottom: 0;
-}
-.section-text-color {
-  color: #9E6934;
-}
-.section-bg-color {
-  background-color: #FFFCF1;
-}
-.section-bg-image {
-  background-image: url(../img/main/review_bg.png);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% 500px;
-}
-.section-bg-image .section-title::after {
-  width: 150px;
-  background-color: #FFF;
-}
-.section-bg-image-2 {
-  background-image: url(../img/sub/about_bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.section-title {
-  position: relative;
-  font-weight: 600;
-}
-.section-title::after {
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 3px;
-  background-color: #9E6934;
-  content: "";
-}
-.section-title-padding {
-  padding-bottom: 3rem;
-}
-
-footer .copy {
-  font-size: 0.8rem;
+a {
+  text-decoration: none;
+  color: #292922;
 }
 
 /*!
@@ -10895,18 +10908,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul, ol, li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=login.css.map */
