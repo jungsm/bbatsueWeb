@@ -1,4 +1,4 @@
-# 규칙
+# 규칙Cancel changes
 <p>1. 파일 이름은 'sub_***.html' 로 작성 바람.</p>
 <p>2. 커밋 내용은 '230206 [홍길동] 커밋 내용' 으로 작성 바람.</p>
 <p>3. CSS 작업은 충돌 나지 않게 새로운 파일을 생성하고 'sub_***.scss' 으로 작성 후 컴파일 바람.</p>
@@ -15,6 +15,10 @@ NodeJS 16버전 다운로드 (아니면 충돌남)
 ```
 npm install bootstrap@5.2.3
 ```
+## General Information
+> 기획서 보기 [_here_](https://github.com/jungsm/project1/blob/main/file/proposal.pdf)
+- 기획서의 목차작성
+- 기획서의 내용을 간락히 요약 정리
 
 # 쌤 블로그
 <a href="https://qwerewqwerew.github.io/book01/docs/miscellaneous/bootstrap/07-03-bootstrap%20scss%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/#01-bootstrap-%EC%9D%B8%EC%8A%A4%ED%86%A8" target="blank">
