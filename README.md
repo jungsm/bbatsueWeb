@@ -16,7 +16,7 @@ NodeJS 16버전 다운로드 (아니면 충돌남)
 npm install bootstrap@5.2.3
 ```
 ## General Information
-> 기획서 보기 [_here_](https://github.com/jungsm/project1/blob/main/file/proposal.pdf)
+> 기획서 보기 [_here_](https://github.com/jungsm/bbatsueWeb/blob/main/file/%EB%BA%8F%EC%8A%88_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%84%9C_%EC%B5%9C%EC%A2%85%EC%88%98%EC%A0%95%EB%B3%B8.pdf)
 - 기획서의 목차작성
 - 기획서의 내용을 간락히 요약 정리
 
